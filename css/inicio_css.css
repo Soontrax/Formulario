@@ -1,0 +1,89 @@
+html,body{
+	background-image: url(../img/nubes.png);
+	background-repeat: no-repeat;
+	background-position: center center ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#logo{
+	width: 30%;
+    margin-left: 36%;
+}
+
+.indices{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-left: 18%;
+    padding-bottom: 15%;
+    padding: 10px 20px;
+}
+
+#Examen{
+	background-color: red;
+    padding: 10px 20px;
+}
+
+#menuDiv {
+    width: 100.44%;
+    height: 25%;
+    margin-top: 1%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 25%;
+    overflow: hidden;
+    background-color: green;
+    margin: 0px 10px 0px -10px;
+    border: 2px solid black;
+}
+
+.botonmenu {
+    display: block;
+    background-color: #F7FE2E;
+    font-weight: bold;
+    font-size: 1.75vw;
+    text-align: center;
+    float: left;
+    width: 20%;
+    border: 2px solid black;
+    margin: 1%;
+    overflow: hidden;
+}
+
+#Instrucciones{
+    background-color: orange;
+}
+
+#Acerde {
+    background-color: #F7819F;
+}
+
+#help{
+    max-width: 5%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+#examen-logo{
+    max-width: 4%;
+    margin-left: 53%;
+    position: absolute;
+    margin-top: 0%;
+}
+
+#instrucciones-logo{
+    max-width: 4%;
+    margin-left: 53%;
+    position: absolute;
+    margin-top: 0%
+}
+
+p{
+    text-align: justify;
+    font-size: 23px;
+}

@@ -1,0 +1,124 @@
+{
+    "question": [
+      {
+        "-id": "pregunta1",
+        "type": "text",
+        "title": "¿Cual es el GRANDSLAM en el cual se juega en hierba?",
+        "answer": "Wimbledon"
+      },
+      {
+        "-id": "pregunta2",
+        "type": "text",
+        "title": "¿Como se llama la cinta que envuelven la empuñadera de una raqueta de tenis?",
+        "answer": "Grip"
+      },
+      {
+        "-id": "pregunta3",
+        "type": "select",
+        "title": "¿Cuál de las siguientes opciones no es una de las partes de una raqueta de tenis?",
+        "option": [
+          "Corazon",
+          "Cuello",
+          "Luna",
+          "Puño"
+        ],
+        "answer": "Luna"
+      },
+      {
+        "-id": "pregunta4",
+        "type": "select",
+        "title": "¿Quien tiene el record de semanas acumuladas como # 1 ?",
+        "option": [
+          "Roger Federer",
+          "Ivan Lendl",
+          "Novak Djokovic",
+          "Pete Sampras"
+        ],
+        "answer": "Roger Federer"
+      },
+      {
+        "-id": "pregunta5",
+        "type": "multiple",
+        "title": "¿En cuales de estos Grand Slam se juega en pista dura?",
+        "option": [
+          "US Open",
+          "Australian Open",
+          "London Master Series",
+          "Paris Open"
+        ],
+        "answer": [
+          "US Open",
+          "Australian Open"
+        ]
+      },
+      {
+        "-id": "pregunta6",
+        "type": "multiple",
+        "title": "¿Cuales de estas marcas hacen raquetas de tenis?",
+        "option": ["Wilson",
+          "Babolat",
+          "Head",
+          "Adidas"
+        ],
+        "answer": [
+          "Wilson",
+          "Babolat",
+          "Head"
+        ]
+      },
+      {
+        "-id": "pregunta7",
+        "type": "checkbox",
+        "title": "¿Que diferentes tipos de golpes se pueden usar en tenis?",
+        "option": [
+          "Globo",
+          "Passing-Drive",
+          "Cortado",
+          "Serv-on"
+        ],
+        "answer": [
+          "Globo",
+          "Cortado"
+        ]
+      },
+      {
+        "-id": "pregunta8",
+        "type": "checkbox",
+        "title": "¿Cuales de estos torneos son Master 1000?",
+        "option": [
+          "Cincinnati Open",
+          "Barcelona open",
+          "Indian Wells",
+          "Todas la anteriores son correctas"
+        ],
+        "answer": [
+          "Cincinnati Open",
+          "Indian Wells"
+        ]
+      },
+      {
+        "-id": "pregunta9",
+        "type": "radio",
+        "title": "¿Cuál de los siguientes no es un tipo de revés?",
+        "option": [
+          "Oblicuo",
+          "Cortado",
+          "Liftado",
+          "Plano"
+        ],
+        "answer": "Liftado"
+      },
+      {
+        "-id": "pregunta10",
+        "type": "radio",
+        "title": "¿En qué tipo de pista suele ser usado preferentemente el golpe \"derecha liftada\"?",
+        "option": [
+          "Hierba",
+          "Pista rápida",
+          "Tierra batida",
+          "En todas por igual"
+        ],
+        "answer": "Tierra batida"
+      }
+    ]
+}

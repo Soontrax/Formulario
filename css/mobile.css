@@ -1,0 +1,58 @@
+html,body{
+	background-image: url(../img/nubes.png);
+	background-repeat: no-repeat ;
+	background-position: center center ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+select, input[type=text],textarea {
+	width: 62%;
+	padding: 2%;
+	border: 2px solid black;
+	border-radius: 4px;
+	color: black;
+	font-size: 100%;
+}
+
+input[type=radio],input[type=checkbox]{
+	width: 31px;
+	height: 22px;
+}
+
+#centro{
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 30px;
+	border:5px solid black;
+	border-radius: 20px;
+	padding: 1%;
+	padding-left: 5%;
+	background-color: #00b300;
+	object-fit: scale-down;
+	font-size: 150%;
+	font-family:'Cutive';
+	z-index: 20;
+}
+
+#logo{
+	width: 90%;
+	margin-right: 64%;
+	margin-left: 8%;
+}
+
+#enviar{
+	width: 67%;
+	margin-left: 10%;
+	border: 5px solid black;
+	background-color: red;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#raqueta {
+	width: 28%;
+	margin-left: 50%;
+	z-index: 10;
+	position: absolute;
+}

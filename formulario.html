@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Examen TEST</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/img/">
+	<link rel='stylesheet' media='screen and (min-width: 720px)' href='css/formularios.css'>
+	<link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mobile.css'>
+	<link href="https://fonts.googleapis.com/css?family=Cutive" rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Faster%3One" rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/javascript.js"></script>
+</head>
+<body onload="formulario()">
+	<div id="Titulo">
+		<img id="logo" src="img/logo.png" alt="emblema" >
+	</div>
+	<div id="centro">
+		<img id="raqueta" src="img/raqueta.png" alt="raqueta">
+		<form>
+			<!--1 Pregunta-->
+			<h2>1ºPregunta</h2>
+			<h4 id="preg1"></h4>
+			<input id="tipo1" type="text" value="" placeholder="Respuesta" />
+
+			<!--2 Pregunta-->
+			<h2>2ºPregunta</h2>
+			<h4 id="preg2"></h4>
+			<input id="tipo2" type="text" value="" placeholder="Respuesta" />
+
+			<!--3 Pregunta-->
+			<h2>3ºPregunta</h2>
+			<h4 id="preg3"></h4>
+			<select id="tipo3">
+				
+			</select>
+
+			<!--4 Pregunta-->
+			<h2>4ºPregunta</h2>
+			<h4 id="preg4"></h4>
+			<select id="tipo4" name="corredores">
+				
+			</select>
+
+			<!--5 Pregunta-->
+			<h2>5ºPregunta</h2>
+			<h4 id="preg5"></h4>
+			<select id="tipo5" multiple>
+				
+			</select>
+
+			<!--6 Pregunta-->
+			<h2>6ºPregunta</h2>
+			<h4 id="preg6"></h4>
+			<select id="tipo6" multiple>
+				
+			</select>
+
+			<!--7 Pregunta-->
+			<h2>7ºPregunta</h2>
+			<h4 id="preg7"></h4>
+			<p id = "pregunta7"></p>
+			
+			
+			<!--8 pregunta-->
+			<h2>8ºPregunta</h2>
+			<h4 id="preg8"></h4>
+			<p id = "pregunta8"></p>
+
+			<!--9 pregunta-->
+			<h2>9ºPregunta</h2>
+			<h4 id="preg9"></h4>
+			<p id="pregunta9"></p>
+
+			<!--10 pregunta-->
+			<h2>10ºPregunta</h2>
+			<h4 id="preg10"></h4>
+			<p id="pregunta10"></p>
+			
+			<br>
+			<div id="enviar" onclick="finalizar()">
+				<h3>ENVIAR</h3>
+			</div>
+		</form>
+	</div>
+
+	<div id="puntuacion" style="display: none;">
+		<h1>CORRECTAS:<b id="correctas"></b></h1>
+		<h1>INCORRECTAS:<b id="incorrectas"></b></h1>
+			<div>
+				<a href="puntuacion.html">Ver las Puntuaciones</a>
+			</div>
+	</div>
+</body>
+</html>
