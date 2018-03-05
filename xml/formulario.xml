@@ -87,26 +87,26 @@
   </question>
 
   <question id='pregunta9'>
-    <type>radio</type>
-    <title>¿Cuál de las siguientes opciones no es una de las partes de una raqueta de tenis?</title>
-    <option>Corazón</option>
-    <option>Cuello</option> 
-    <option>Luna</option> 
-    <option>Puño</option>
+  <type>radio</type>
+  <title>¿Cuál de las siguientes opciones no es una de las partes de una raqueta de tenis?</title>
+  <option>Corazón</option>
+  <option>Cuello</option> 
+  <option>Luna</option> 
+  <option>Puño</option>
 
-    <answer>Luna</answer> 
+  <answer>Luna</answer> 
   </question>
 
 
   <question id='pregunta10'>
-    <type>radio</type>
-    <title>¿En qué tipo de pista suele ser usado preferentemente el golpe "derecha liftada"?</title>
-    <option>Hierba</option>
-    <option>Pista rápida</option> 
-    <option>Tierra batida</option> 
-    <option>En todas por igual</option>
+  <type>radio</type>
+  <title>¿En qué tipo de pista suele ser usado preferentemente el golpe "derecha liftada"?</title>
+  <option>Hierba</option>
+  <option>Pista rápida</option> 
+  <option>Tierra batida</option> 
+  <option>En todas por igual</option>
 
-    <answer>Tierra batida</answer> 
+  <answer>Tierra batida</answer> 
   </question>
 
 </questions>

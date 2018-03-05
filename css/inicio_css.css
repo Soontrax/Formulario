@@ -1,6 +1,6 @@
 html,body{
 	background-image: url(../img/nubes.png);
-	background-repeat: no-repeat;
+	background-repeat: no-repeat 
 	background-position: center center ;
 	background-size: cover;
 	background-attachment: fixed;
