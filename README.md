@@ -1,5 +1,4 @@
 # Formulario
-# Formulario
 __Desarrollado por:__ Álvaro Garrido Núñez.
 
 
